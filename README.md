@@ -11,19 +11,9 @@ This program is a  contract written in cadence, a programming language used for 
 
 To run this program, you can use flow playground, an online cadence IDE.
 
-
-To compile the code, click on the "Solidity Compiler" tab in the left-hand sidebar. Make sure the "Compiler" option is set to "0.8.4" (or another compatible version), and then click on the "Compile HelloWorld.sol" button.
-
-Once the code is compiled, you can deploy the contract by clicking on the "Deploy & Run Transactions" tab in the left-hand sidebar. Select the "HelloWorld" contract from the dropdown menu, and then click on the "Deploy" button.
-
-Once the contract is deployed, you can interact with it by calling the sayHello function. Click on the "HelloWorld" contract in the left-hand sidebar, and then click on the "sayHello" function. Finally, click on the "transact" button to execute the function and retrieve the "Hello World!" message.
+To compile the code we first import the non-fungible token standard into the main contract and then as per the project requirement,i created an borrowauthnft function,then we create an interface and add specific functions that we want to access publicly then we deply teh transaction to read the meta data stored inside the NFT .
 
 ## Authors
 
-Metacrafter Chris  
-[@metacraftersio](https://twitter.com/metacraftersio)
+Metacrafter rithvik
 
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE.md file for details
